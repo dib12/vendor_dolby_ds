@@ -1,0 +1,7 @@
+type hal_dms_default, domain;
+type hal_dms_default_exec, file_type, exec_type, vendor_file_type;
+init_daemon_domain(hal_dms_default)
+hal_server_domain(hal_dms_default, hal_dms)
+allow hal_dms_default hal_dms_hwservice:hwservice_manager add;
+allow hal_dms_default vendor_data_file:dir rw_dir_perms;
+allow hal_dms_default vendor_data_file:file create_file_perms;

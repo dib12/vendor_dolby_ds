@@ -5,6 +5,9 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/dolby/ds
 
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    vendor/dolby/ds/sepolicy/vendor
+
 PRODUCT_COPY_FILES += \
     vendor/dolby/ds/proprietary/vendor/etc/dolby/dax-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-conf.xml \
     vendor/dolby/ds/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@2.0-service \

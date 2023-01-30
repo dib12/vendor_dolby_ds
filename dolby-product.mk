@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/dolby/ds/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so
 
 PRODUCT_PACKAGES += \
+    DaxUI \
     daxService
 
 PRODUCT_VENDOR_PROPERTIES += \

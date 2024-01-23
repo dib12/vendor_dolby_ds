@@ -41,6 +41,12 @@
     <string name="dolby_reset_profile">Reset to defaults</string>
     <string name="dolby_reset_profile_toast">Succesfully reset settings for %1$s profile</string>
 
+    <!-- Dolby Atmos: Stereo Widening -->
+    <string name="dolby_stereo_widening_off">Off</string>
+    <string name="dolby_stereo_widening_near">Near</string>
+    <string name="dolby_stereo_widening_middle">Middle</string>
+    <string name="dolby_stereo_widening_far">Far</string>
+
     <!-- Dolby Atmos: Sound Profiles -->
     <string name="dolby_profile_dynamic">Dynamic</string>
     <string name="dolby_profile_music">Music</string>

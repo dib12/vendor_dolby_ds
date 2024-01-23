@@ -71,18 +71,16 @@
     </string-array>
 
     <string-array name="dolby_stereo_entries">
-        <item>@string/dolby_off</item>
-        <item>@string/dolby_low</item>
-        <item>@string/dolby_medium</item>
-        <item>@string/dolby_high</item>
-        <item>@string/dolby_max</item>
+        <item>@string/dolby_stereo_widening_off</item>
+        <item>@string/dolby_stereo_widening_near</item>
+        <item>@string/dolby_stereo_widening_middle</item>
+        <item>@string/dolby_stereo_widening_far</item>
     </string-array>
 
     <string-array name="dolby_stereo_values">
         <item>0</item>
         <item>4</item>
         <item>24</item>
-        <item>44</item>
         <item>64</item>
     </string-array>
 </resources>

@@ -9,6 +9,7 @@ android_app_import {
 	name: "DolbySound",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/DolbySound/DolbySound.apk",
+	overrides: ["AudioFX", "MusicFX"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
